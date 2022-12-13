@@ -1,5 +1,5 @@
 # gsvd_iter
-Generalized singular value decomposion (GSVD) computation by iterative methods.
+Generalized singular value decomposition (GSVD) computation by iterative methods.
 
 For a matrix pair $\{A,B\}$, if m >= n >= p then the GSVD has the form:
    [ A ] = [ U  0 ]*[ diag(sigma)      0    ]*inv(X)
