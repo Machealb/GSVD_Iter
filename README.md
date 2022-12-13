@@ -13,4 +13,11 @@ where
 Otherwise the GSVD has a more complicated form (see manual for details).
  
 Reference: C. F. Van Loan, "Computing the CS and the generalized 
-singular value decomposition", Numer. Math. 46 (1985), 479-491. 
+singular value decomposition", Numerische Mathematik, 46 (1985), pp. 479-491. 
+
+## jbdgsvd
+
+Compute a partial GSVD iteratively using the joint bidigonalization of $\{A,B\}$.
+
+Reference: H. Zha, "Computing the generalized singular values/vectors of large sparse 
+or structured matrix pairs", Numerische Mathematik, 72 (1996), pp. 391–417.
