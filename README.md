@@ -1,10 +1,5 @@
 # gsvd_iter
 
-
-<img src="figs/ritz_A2.png" width="400" />  <img src="figs/ritz_L2.png" width="400" /> 
-<img src="figs/conv2_l.png" width="400" /> <img src="figs/conv2_s.png" width="400" />
-
-
 * gsvd_iter is a MATLAB code library for computing a few Generalized Singular Value Decomposition (GSVD) components of large-scale matrix pairs.
 
 For a matrix pair $\{A,B\}$, if m >= n >= p then the GSVD has the form:
@@ -19,6 +14,10 @@ where
 Otherwise the GSVD has a more complicated form (see the following reference for more details).
  
 Reference: C. F. Van Loan, "Computing the CS and the generalized singular value decomposition", Numerische Mathematik, 46 (1985), pp. 479-491. 
+
+<img src="figs/ritz_A2.png" width="400" />  <img src="figs/ritz_L2.png" width="400" /> 
+<img src="figs/conv2_l.png" width="400" /> <img src="figs/conv2_s.png" width="400" />
+
 
 ## JBD_GSVD. 
  
