@@ -1,7 +1,7 @@
 # gGKB_GSVD
 Using generalizing Golub-Kahan bidiagonalization to compute a part of nontrivial GSVD components.
 
-Plase read the following guideline to run the codes and test the algorithms.
+Please read the following guideline to run the codes and test the algorithms.
 
 ## test recursive relations and orthogonality
 test0.m
