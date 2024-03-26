@@ -27,7 +27,7 @@ Reference: C. F. Van Loan, "Computing the CS and the generalized singular value 
 
 ## JBD_GSVD. 
  
-Compute a partial GSVD iteratively using the joint bidigonalization of $\{A,B\}$. Here are some research papers related to this method.
+Compute a partial GSVD iteratively using the joint bidigonalization of {A,B}. Here are some research papers related to this method.
 
 1. Zhongxiao Jia, Haibo Li. "[The joint bidiagonalization method for large GSVD computations in finite precision](https://doi.org/10.1137/22M1483608)."
 2. Zhongxiao Jia, Haibo Li. "[The joint bidiagonalization process with partial reorthogonalization](https://doi.org/10.1007/s11075-020-01064-8)."
