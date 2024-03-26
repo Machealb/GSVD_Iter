@@ -4,11 +4,11 @@
 
 For a matrix pair $\{A,B\}$, if m >= n >= p then the GSVD has the form:
 
-   [ A ] = [ U  0 ]*[ diag(sigma)      0    ]*inv(X)
+   A = [ U  0 ] * [ diag(sigma)      0    ] * inv(X)
    
-   [ B ]   [ 0  V ] [      0       eye(n-p) ]
+   B = [ 0  V ] *  [      0       eye(n-p) ]
    
-                    [  diag(mu)        0    ]
+                    [  diag(mu)        0    ] * inv(X)
 where
    U  is  m-by-n ,    sigma  is  p-by-1
    
