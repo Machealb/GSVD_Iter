@@ -29,16 +29,16 @@ Reference: C. F. Van Loan, "Computing the CS and the generalized singular value 
  
 Compute a partial GSVD iteratively using the joint bidigonalization of $\{A,B\}$. Here are some research papers related to this method.
 
-1. Haibo Li. "[A preconditioned Krylov subspace method for linear inverse problems with general-form Tikhonov regularization](https://arxiv.org/pdf/2308.06577.pdf)."
-2. Haibo Li. "[Subspace projection regularization for large-scale Bayesian linear inverse problems](https://arxiv.org/pdf/2310.18618.pdf)."
-3. Haibo Li. "[Subspace projection regularization for large-scale Bayesian linear inverse problems](https://arxiv.org/pdf/2310.18618.pdf)."
+1. Zhongxiao Jia, Haibo Li. "[The joint bidiagonalization method for large GSVD computations in finite precision](https://doi.org/10.1137/22M1483608)."
+2. Zhongxiao Jia, Haibo Li. "[The joint bidiagonalization process with partial reorthogonalization](https://doi.org/10.1007/s11075-020-01064-8)."
+3. Haibo Li. "[The joint bidiagonalization of a matrix pair with inaccurate inner iterations](https://doi.org/10.1137/22M1541083)."
 
 
 ## gGKB_GSVD. 
  
 Compute a partial GSVD iteratively using the generalized Golub-kahan bidiagonalization. Here are some research papers related to this method.
 
-1. Haibo Li. "[A preconditioned Krylov subspace method for linear inverse problems with general-form Tikhonov regularization](https://arxiv.org/pdf/2308.06577.pdf)."
+1. Haibo Li. "[Generalizing the Golub-Kahan bidiagonalization for large-scale GSVD computations](xxx)."
 
 
 ## Submit an issue
