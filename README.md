@@ -47,7 +47,7 @@ You are welcome to submit an issue for any questions related to InverProb_IterSo
 ## License
 If you use this code in any future publications, please cite like this:
 
-Haibo Li. "[A preconditioned Krylov subspace method for linear inverse problems with general-form Tikhonov regularization (https://arxiv.org/pdf/2308.06577.pdf)."
+Zhongxiao Jia, Haibo Li. "[The joint bidiagonalization method for large GSVD computations in finite precision](https://doi.org/10.1137/22M1483608)."
 
 
 
