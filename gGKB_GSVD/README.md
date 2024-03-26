@@ -6,7 +6,7 @@ Plase read the following guideline to run the codes and test the algorithms.
 ## test recursive relations and orthogonality
 test0.m
 
-## 1. Convergence of c_i and s_i, smallest and largest, tol = 0, reorth = 1 or 0
+## 1. Convergence of c_i and s_i, tol = 0, reorth = 1 or 0
 
 gGKB of A and gGKB of L, respectively; {A, L} is self-constructed
 
