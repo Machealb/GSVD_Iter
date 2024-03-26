@@ -1,8 +1,8 @@
 # gsvd_iter
 
 
-<img src="figs/ritz_A2.png" width="300" /> <img src="figs/conv2_l.png" width="300" />
-<img src="figs/conv2_s.png" width="300" />
+<img src="figs/ritz_A2.png" width="400" />  <img src="figs/ritz_L2.png" width="400" /> 
+<img src="figs/conv2_l.png" width="400" /> <img src="figs/conv2_s.png" width="400" />
 
 
 * gsvd_iter is a MATLAB code library for computing a few Generalized Singular Value Decomposition (GSVD) components of large-scale matrix pairs.
