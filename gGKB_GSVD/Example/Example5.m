@@ -8,7 +8,7 @@ addpath(genpath('..'))
 rng(2023);
 
 % ----- test matrix -----
-N = 5000;
+N = 10000;
 c = zeros(N,1);
 c(1) = 0.99;   c(2) = 0.97;  
 c(3:N-2) = linspace(0.95, 0.15, N-4);
