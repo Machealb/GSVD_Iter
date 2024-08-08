@@ -41,11 +41,13 @@ function [U, Z, Zb, B, bbeta] = gGKB2_A(A, L, b, k, tol, reorth, type)
     end
 
     [m, n] = size(A); 
+    p = size(L,1);
     if size(b,1) ~= m || size(L,2) ~= n
         error('The dimensions are not consistent')
     end
 
     M = A'*A + L'*L;
+    AL = [A;L];
     if strcmp(type, 'semi') && tol == 0
         Mp = pinv(M);
     end
@@ -69,8 +71,9 @@ function [U, Z, Zb, B, bbeta] = gGKB2_A(A, L, b, k, tol, reorth, type)
     elseif tol == 0 && strcmp(type, 'semi')
         r = Mp * rb;
     else
-        r = pcg(M, rb, tol, 2*n);
+        % r = pcg(M, rb, tol, 2*n);
         % r = lsqr(M, rb,tol, 2*n);
+        r = lsqr(AL, [u;zeros(p,1)],tol, 2*n);
     end
 
     alpha = sqrt(r'*M*r);
@@ -117,8 +120,9 @@ function [U, Z, Zb, B, bbeta] = gGKB2_A(A, L, b, k, tol, reorth, type)
         elseif tol == 0 && strcmp(type, 'semi')
             r = Mp * rb;
         else
-            r = pcg(M, rb, tol, 2*n);
+            % r = pcg(M, rb, tol, 2*n);
             % r = lsqr(M, rb,tol, 2*n);
+            r = lsqr(AL, [u;zeros(p,1)],tol, 2*n);
         end
 
         r = r - beta * z;
