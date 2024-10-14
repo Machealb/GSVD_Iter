@@ -29,16 +29,16 @@ Reference: C. F. Van Loan, "Computing the CS and the generalized singular value 
  
 Compute a partial GSVD iteratively using the joint bidigonalization of {A,B}. Here are some research papers related to this method.
 
-1. Zhongxiao Jia, Haibo Li. "[The joint bidiagonalization method for large GSVD computations in finite precision](https://doi.org/10.1137/22M1483608)."
-2. Zhongxiao Jia, Haibo Li. "[The joint bidiagonalization process with partial reorthogonalization](https://doi.org/10.1007/s11075-020-01064-8)."
-3. Haibo Li. "[The joint bidiagonalization of a matrix pair with inaccurate inner iterations](https://doi.org/10.1137/22M1541083)."
+1. Zhongxiao Jia, Haibo Li. "[The joint bidiagonalization method for large GSVD computations in finite precision. SIAM Journal on Matrix Analysis and Applications, 44(1), 382–407](https://doi.org/10.1137/22M1483608)."
+2. Zhongxiao Jia, Haibo Li. "[The joint bidiagonalization process with partial reorthogonalization. Numerical Algorithm, 88, 965-992](https://doi.org/10.1007/s11075-020-01064-8)."
+3. Haibo Li. "[The joint bidiagonalization of a matrix pair with inaccurate inner iterations. SIAM Journal on Matrix Analysis and Applications, 45(1), 232–259](https://doi.org/10.1137/22M1541083)."
 
 
 ## gGKB_GSVD. 
  
 Compute a partial GSVD iteratively using the generalized Golub-kahan bidiagonalization. Here are some research papers related to this method.
 
-1. Haibo Li. "[Generalizing the Golub-Kahan bidiagonalization for large-scale GSVD computations](xxx)."
+1. Haibo Li. "[ Characterizing GSVD by singular value expansion of linear operators and its computation](https://arxiv.org/abs/2404.00655)."
 
 
 ## Submit an issue
@@ -47,7 +47,7 @@ You are welcome to submit an issue for any questions related to InverProb_IterSo
 ## License
 If you use this code in any future publications, please cite like this:
 
-Zhongxiao Jia, Haibo Li. "[The joint bidiagonalization method for large GSVD computations in finite precision](https://doi.org/10.1137/22M1483608)."
+Zhongxiao Jia, Haibo Li. "[The joint bidiagonalization method for large GSVD computations in finite precision. SIAM Journal on Matrix Analysis and Applications, 44(1), 382–407.](https://doi.org/10.1137/22M1483608)."
 
 
 
