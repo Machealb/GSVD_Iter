@@ -1,4 +1,4 @@
-# gsvd_iter
+# GSVD_Iter
 
 * gsvd_iter is a MATLAB code library for computing a few Generalized Singular Value Decomposition (GSVD) components of large-scale matrix pairs.
 
